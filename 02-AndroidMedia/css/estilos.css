@@ -1,0 +1,935 @@
+body{
+    font-family:  Arial, Helvica, sans-serif;
+    margin:  0 auto;
+    width: 100%;
+}
+img{
+    display: inline-block;
+}
+.menu{
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    margin: auto;
+    overflow: hidden;
+}
+.android-logo{
+    width: 140px;
+    height: 28px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.ol-menu{
+    display: inline-block;
+    list-style: none;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+    width: 470px;
+    height: 40px;
+    float: right;
+    margin-top: -45px;
+    margin-right: 50px;
+}
+.icono-hamburguesa{
+    display: none;
+}
+.navegacion{
+    background: darkgray;
+    width: 100%;
+    height: 5em;
+    background: rgba(0,0,0,0,9);
+    position: fixed;
+    z-index: 10;
+}
+.li-menu{
+    width: 90px;
+    height: 20px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.li-menu-a{
+    text-decoration:none;
+    color: #757575;
+    display:inline-block;
+    font-size: 14px;
+}
+.li-menu span{
+    width: 10px;
+    height: 5px;
+}
+.imagen-lupa{
+    margin-left: 1300px;
+    margin-top: -100px;
+    display: inline-block;
+}
+
+.carrusel-imagenes{
+    background-repeat: no-repeat;
+    height: 630px;
+    width: 100%;
+    display: block;
+    z-index: 4;
+    position: relative;
+}
+.div-img{
+    width: 100%;
+}
+.img-2{
+    width: 100%;
+    height: 630px;
+}
+.parrafo-android{
+    font-weight: lighter;
+    line-height: 32px;
+    margin: 0 auto;
+    margin-top: -450px;
+    margin-bottom: 1px;
+    font-size: 39px;
+    color: black;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+.parrafo-2{
+    font-weight: 100;
+    text-align: center;
+}
+.parrafo-3{
+    text-align: center;
+    margin-top: 3em;
+}
+.div-2 a{
+    font-weight: 500;
+    text-align: center;
+    color: green;
+    text-decoration: none;
+}
+
+
+.circulo{
+    transform: matrix(1,0,0,1,0,0);
+    border-radius: 28px;
+    height: 56px;
+    width: 56px;
+    background-color: #64ffda;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    z-index: 5;
+    float: right;
+    margin-top: -30px;
+    margin-right: 200px;
+}
+.circulo-magenta{
+    background-image: url(../imagenes/bluegrey-900-saf2be3b5f0.png);
+    background-position: 0 0;
+    height: 16px;
+    width: 16px;
+    margin-top: 20px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.div-pasar-imgs{
+    background-color: #fff;
+    border-bottom: 1px solid #dcdcdc;
+    padding: 30px 0;
+    text-align: center;
+    width: 100%;
+}
+.flecha-izq{
+    background-image: url("../imagenes/green-s152762af05.png");
+    background-position: 0 -28px;
+    height: 13px;
+    width: 13px;
+    display: inline-block;
+}
+.div-general{    
+    display: inline-block;
+    height: 16px;
+    margin: 0 12px;
+    position: relative;
+    vertical-align: middle;
+    width: 16px;
+}
+.div-central{
+     background-color: #dcdcdc;
+    border-radius: 12px;
+    cursor: pointer;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    z-index: 2;
+}
+.flecha-der{
+     background-image: url("../imagenes/green-s152762af05.png");
+    background-position: 0 -41px;
+    height: 13px;
+    width: 13px;
+    display: inline-block
+}
+
+
+.div-parrafo-4{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 276px;
+}
+.div-centro{
+    padding-bottom: 24px;
+    padding-top: 80px;
+}
+.texto-h2{
+    color: #212121;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 48px;
+}
+.texto-2{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    max-width: 535px;
+    line-height: 30px;
+}
+
+
+.contenedor-imagenes{
+    width: 100%;
+    height: 543px;
+}
+.contenedor-centro{
+    width: 100%;
+    height: 543px; 
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;;
+    position: relative;
+    z-index: 1;
+}
+.celdas{
+    display: table-cell;
+    padding: 0px 60px;
+    position: relative
+}
+.celdas a{
+    display: inline-block;
+    text-align: center;
+    width: 108px;
+    height: 154px;
+    cursor: pointer;
+    color: #6ab344;
+    white-space: nowrap;
+    font-size: 14px;
+}
+.celdas div{
+    margin: 0;
+    position: relative;
+}
+.img-reloj{
+    width: 100%;
+    height: 100%;
+}
+.img-telefono{
+    width: 58px;
+    height: 122px;
+}
+.img-tablet{
+    width: 96px;
+    height: 134px;
+}
+.img-television{
+    width: 278px;
+    height: 173px;
+}
+.p-android-tv{
+    color: #6ab344;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    padding-top: 15px;
+    padding-left: 90px;
+}
+.div-auto{
+    float: right;
+    width: 344px;
+    height: 548px;
+    display: table-cell;
+    padding: 0 20px;
+    position: relative;
+    margin-top: -400px;
+}
+.div-auto a{
+    display: block;
+    text-align: center;
+    width: 108px;
+    height: 154px;
+    padding-top: 90px;
+}
+.div-auto div{
+    margin: 0;
+    position: relative;
+    width: 344px;
+    max-width: 530px;
+    transform-origin: 50% 50% 0px;
+}
+.img-auto{
+    transition: opacity 0.2s ease-out 0.2s;
+    z-index: 10;
+    width: 360px;
+    display: block;
+    position: relative;
+    border: 0px none;
+}
+.div-auto p{
+    color: #6ab344;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    padding-top: 1px;
+    padding-left: 9em;
+}
+
+
+.contenedor-imagen{
+    height: 780px;
+    width: 100%;
+}
+.imagen-mano{
+    width: 100%;
+    margin-top: 70px;
+    height: 550px;
+    transform: matrix(1, 0, 0, 1, 0, 20);
+    background-image: url(../imagenes/wear3-1600.png);
+}
+.div-texto{
+    width: 100%;
+    background-color: #455a64;
+    height: 200px;
+    padding-top: 30px;
+    display: inline-block;
+}
+.div-texto h2{
+    width: 100%;
+    max-width: 500px;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 48px;
+    margin left: 100px;
+}
+.h2-the-best{
+    margin-left: 100px;
+}
+.div-texto p{
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 12px;
+    margin-top: 0;
+    max-width: 40em;
+    min-width: 20em;
+    font-weight: 100;
+    margin-left: 100px;
+}
+.a-texto{
+    color: #00bfa5;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-left: 100px;
+}
+.span-flecha{
+    background-image: url(../Imagenes/teal.png);
+    display: inline-block;
+    overflow: hidden;
+    background-position: 0 -32px;
+    height: 13px;
+    width: 8px;
+    margin-left: .3em;
+}
+
+
+.contenedor-img2{
+    width: 100%;
+    margin-top: 100px;
+    height: 572px;
+    border-bottom: 1px solid #dcdcdc;
+    position: relative
+}
+.texto-customize{
+    padding-bottom: 0;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+}
+.texto-customize h2{
+    margin-bottom: 16px;
+    margin-top: 0;
+    color: #212121;
+    font-size: 38px;
+    font-weight: 300;
+    line-height: 48px;
+    margin: 0 auto;
+}
+.texto-customize p{
+    padding-top: 20px;
+    color: #212121;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    width: 100%;;
+    height: 48px;
+    margin: 0 auto;
+}
+.parrafo-customize2{
+    color: #339600;
+    text-decoration: none;
+}
+.img-grande-2{
+    width: 100%;;
+    height: 389px;
+}
+
+
+.contenedor-cuadros{
+    width: 100%;
+    height: 680px;
+    border-bottom: 1px solid #dcdcdc;
+}
+.texto-android h2{
+    max-width: 320px;
+    margin-top: 10px;
+    color: #212121;
+    font-size: 38px;
+    font-weight: 300;
+    margin: 0 auto;
+    float: left;
+    margin-left: 178px;
+    margin-top: 60px;
+}
+.centro-cuadros{
+    width: 100%;;
+    height: 478px;
+}
+.div-centrar-imgs{
+    width: 100%;
+    height: 478px;
+    margin-left: 130px;
+    max-width: 1044px;
+    display: inline-block;
+}
+.centrar-imgs{
+    width: 344px;
+    height: 478px;
+    display: inline-block;
+}
+.crear-cuadros{
+    width: 332px;
+    height: 478px;
+    background-color: #fff;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+}
+.div-cuadros{
+    width: 332px;
+    height: 478px;
+}
+.div-figura1{
+    width: 332px;
+    height: 230x;
+}
+.img-figura1{
+    width: 332px;
+    height: 231px;
+}
+.fig-caption1{
+    width: 332px;
+    height: 170px;
+}
+.div-texto-fig{
+    width: 332px;
+    height: 170px;
+}
+.div-texto-fig h3{
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 12px;
+    margin-top: 0;
+    width: 100%;
+    height: 52px;
+    color: #212121;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.div-texto-fig p{
+    width: 283px;
+    height: 48px;
+    color: #212121;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 24px;
+    padding-left: 20px;
+}
+.div-texto-fig a{
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 145px;
+    height: 16px;
+    color: #6ab344;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+.div-texto-fig span{
+    background-image: url("../imagenes/green-s152762af05.png");
+    background-position: 0 -41px;
+    height: 13px;
+    width: 13px;
+    display: inline-block;
+    margin-left: -40px;
+}
+
+
+.footer{
+    width: 100%;
+    height: 250px;
+}
+.li-footer{
+    display: inline-block;
+    padding-left: 15px;
+}
+.li-footer a{
+    width: 40px;
+    height: 40px;
+}
+.googlemas{
+    background-image: url(../imagenes/footer-s97b46602f4.png);
+    border-radius: 3px;
+    background-position: 0 -185px;
+    height: 40px;
+    width: 40px
+}
+.twitter{
+    background-image: url(../imagenes/footer-s97b46602f4.png);
+    border-radius: 3px;
+    background-position: 0 -306px;
+    height: 40px;
+    width: 40px
+}
+.facebook{
+    background-image: url(../imagenes/footer-s97b46602f4.png);
+    border-radius: 3px;
+    background-position: 0 -72px;
+    height: 40px;
+    width: 40px
+}
+.youtube{
+    background-image: url(../imagenes/footer-s97b46602f4.png);
+    border-radius: 3px;
+    background-position: 0 -346px;
+    height: 40px;
+    width: 40px
+}
+.blog{
+    background-image: url(../imagenes/footer-s97b46602f4.png);
+    border-radius: 3px;
+    background-position: 0 -466px;
+    height: 40px;
+    width: 40px 
+}
+.li-google{
+    display: inline-block;
+    padding-left: 30px;
+}
+.li-google a{
+    width: 100px;
+    height: 38px;
+}
+.span-texto{
+    color: #757575;
+    text-decoration: none;
+    float: right;
+    margin-right: 30px;
+    margin-top:-40px;
+}
+.span-flecha{
+    background-image: url("../imagenes/footer-s97b46602f4.png");
+    background-position: 0 -16px;
+    height: 16px;
+    width: 16px;
+    float: right;
+    margin-top: -40px;
+}
+.texto-footer{
+    color:#757575;
+    font-size: 15px;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.texto-opciones{
+    text-decoration:none;
+    color: #757575;
+    display:inline-block;
+    font-size: 14px;
+}
+.logo-google{
+    background-image: url(../imagenes/footer-s97b46602f4.png);
+    border-radius: 3px;
+    background-position: 0 -149px;
+    height: 37px;
+    width: 106px 
+}
+.select-lista{
+    width: 18em;
+    float: right;
+    margin-left: 1000px;
+    margin-top: -60px;
+}
+.ocultar-footer{
+    width: 600px;
+    margin-left: 160px;
+    margin-top: -40px;
+}
+
+@media only screen and (max-width: 480px){
+    .menu{
+        width: 100%;
+        height: 80px;
+    }
+    .android-logo{
+        margin-left: 230px;
+        position: absolute;
+        padding-left: 0;
+        margin-left: 120px;
+    }
+    .ol-menu{
+        display: none;
+    }
+    .menu-hamburguesa{
+        margin-top:29px;
+        margin-left: 20px;
+        float: left;
+    }
+    .icono-hamburguesa{
+        width: 100%;;
+        height: 100%;;
+        display: block;
+    }
+    .imagen-lupa{
+        display: inline-block;
+        float: right;
+        margin-top: -30px;
+    }
+    .parrafo-2{
+        padding-top: 30px;
+    }
+    /**/
+    .div-texto{
+        height: 250px;
+    }
+    .h2-the-best{
+        margin-left: 0px;
+    }
+    .div-texto p{
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    .a-texto{
+        font-size: 12px;
+        margin-left: 0px;
+    }
+    .div-texto-customize p{
+        height: 50px;
+    }
+    .contenedor-imagenes{
+        width: 100%;
+        height: 2050px;
+    }
+    .celdas{
+        padding-top: 50px;
+        display: block;
+        margin-top: 200px;
+        margin-left: 0px;
+    }
+    .img-auto{
+        width: 350px;
+        height: 350px;
+        margin-top: 250px;
+        margin-left: 10px;
+        float: none;
+    }
+    .p-android-auto{
+        margin-top: 150px;
+        margin-left: 20px;
+    }
+    .div-auto p{
+        padding-left: 0px;
+    }
+    .img-reloj{
+        margin-top: -1000px;
+        margin-left: 110px;
+        height: 120px;
+    }
+    .celdas p{
+        margin-left: 110px;
+    }
+    .img-telefono{
+        margin-left: 110px;
+        margin-top: -100px;
+    }
+    .img-tablet{
+        margin-left: 110px;
+        margin-top: -100px;
+    }
+    .img-television{
+        margin-left: 30px;
+        margin-top: -100px;
+    }
+    .img-auto{
+        width: 300px;
+        height: 300px;
+        margin-left: 20px;
+        margin-top: -100px;
+        padding-top: 0px;
+    }
+    .p-android-tv{
+        padding-left: 0px;
+    }
+    .contenedor-cuadros{
+        height: 1430px;
+    }
+    .texto-android h2{
+        margin-left: 60px;
+        margin-top: 90px;
+    }
+    .div-centrar-imgs{
+        width: 420px;
+        margin-left: 20px;
+    }
+    .crear-cuadros{
+        height: 400px;
+    }
+    .div-cuadros{
+        height: 400px;
+        display: inline-block
+    }
+    .centrar-imgs{
+        height: 400px;
+    }
+    .div-texto-fig p{
+        display: none;
+    }
+    .div-texto-fig a{
+        margin-top: -10px;
+    }
+    .div-pasar-imgs{
+        margin-top: 70px;
+    }
+    .li-footer{
+        display: none
+    }
+    .li-google{
+        padding-left: 0px;
+    }
+    .li-google a{
+        width: 100px;
+        height: 38px;
+    }
+    .texto-footer{
+        color:#757575;
+        font-size: 15px;
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+    .span-texto{
+        float: left;
+        margin-left: 0px;
+        margin-top:0px;
+    }
+    .span-flecha{
+        float: left;
+        margin-top: 0px;
+    }
+    .ocultar-footer{
+        display: none;
+    }
+    .select-lista{
+        padding-left: 0px;
+        margin-top: -30px;
+        width: 200px;
+        margin-left: 0px;
+        clear: both;
+    }
+    .logo-google{
+        margin-top: 20px;
+    }
+}
+   
+@media only screen and (min-width: 481px) and (max-width: 720px){
+    .menu{
+        width: 100%;
+        height: 80px;
+    }
+    .android-logo{
+        margin-left: 230px;
+        position: absolute;
+        padding-left: 0;
+        margin-left: 210px;
+    }
+    .ol-menu{
+        display: none;
+    }
+    .menu-hamburguesa{
+        margin-top:29px;
+        margin-left: 20px;
+        float: left;
+    }
+    .icono-hamburguesa{
+        width: 100%;;
+        height: 100%;;
+        display: block;
+    }
+    .imagen-lupa{
+        display: inline-block;
+        float: right;
+        margin-top: -30px;
+    }
+    .contenedor-imagenes{
+        width: 100%;
+        height: 1750px;
+    }
+    .celdas{
+        padding-top: 0px;
+        display: block;
+        margin-top: 200px;
+    }
+    .img-auto{
+        width: 350px;
+        height: 350px;
+        margin-top: 250px;
+        margin-left: 0px;
+        float: none;
+    }
+    .p-android-auto{
+        margin-top: 150px;
+        margin-left: 20px;
+    }
+    .div-auto p{
+        padding-left: 0px;
+    }
+    .img-reloj{
+        margin-top: -1000px;
+        margin-left: 200px;
+        height: 120px;
+    }
+    .celdas p{
+        margin-left: 200px;
+    }
+    .img-telefono{
+        margin-left: 200px;
+        margin-top: -100px;
+    }
+    .img-tablet{
+        margin-left: 200px;
+        margin-top: -100px;
+    }
+    .img-television{
+        margin-left: 120px;
+        margin-top: -100px;
+    }
+    .img-auto{
+        width: 300px;
+        height: 300px;
+        margin-left: 120px;
+        margin-top: -100px;
+        padding-top: 0px;
+    }
+    .p-android-tv{
+        padding-left: 0px;
+    }
+    .h2-the-best{
+        margin-left: 0px;
+    }
+    .div-texto p{
+        font-size: 18px;
+        margin-left: 0px;
+    }
+    .a-texto{
+        font-size: 14px;
+        margin-left: 0px;
+    }
+    .contenedor-cuadros{
+        height: 1830px;
+    }
+    .crear-cuadros{
+        height: 550px;
+        width: 400px;
+        margin-left: 0px;
+    }
+    .div-cuadros{
+        height: 550px;
+        display: inline-block
+    }
+    .centrar-imgs{
+        height: 300px;
+    }
+    .div-texto-fig p{
+        display: none;
+    }
+    .div-texto-fig a{
+        margin-top: -10px;
+    }
+    .img-figura1{
+        width: 400px;
+        height: 400px;
+    }
+    .div-pasar-imgs{
+        margin-top: 70px;
+    }
+    .li-footer{
+        display: none
+    }
+    .li-google a{
+        width: 100px;
+        height: 38px;
+    }
+    .span-texto{
+        float: left;
+        margin-left: 40px;
+        margin-top:0px;
+    }
+    .span-flecha{
+        float: left;
+        margin-top: 0px;
+    }
+    .ocultar-footer{
+        display: none;
+    }
+    .select-lista{
+        padding-left: 0px;
+        margin-top: -30px;
+        margin-left: 50px;
+    }
+    .logo-google{
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,62 @@
+body{
+    background-color: gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20 auto;
+    width: 100%;
+}
+section{
+    width: 60%;
+    float: left;
+}
+aside{
+    background-color: darkgrey;
+    width: 30%;
+    float:right;
+}
+
+footer{
+    text-align: center;
+    clear: both;
+}
+
+#menu{
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#art{
+    background-color: darkgrey;
+}
+
+@media only screen and (max-width: 480px){
+    body{
+       
+    }
+    section{
+        width: 100%;
+        float: none;
+        margin: 40 auto;
+    }
+    aside{
+        display: none;
+    }
+    footer{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width:720px){
+    body{
+        
+    }
+}
+
+@media only screen and (min-width:721px) and (max-width:1920px){
+    body{
+        
+    }
+}
